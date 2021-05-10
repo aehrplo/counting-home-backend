@@ -7,9 +7,12 @@
 <br><br>
 ## API
 ---
-`GET /schedule/comming`
-<br><br>
-### Response
+<br>
+
+### `GET /schedule/comming`
+<br>
+
+##### Response
 ```{.JSON}
 {  
   type: 'School',
@@ -18,9 +21,10 @@
 }
 ```
 <br><br>
-`GET /schedule/all`
-<br><br>
-### Response
+### `GET /schedule/all`
+<br>
+
+##### Response
 ```{.JSON}
 {
   '0': {
