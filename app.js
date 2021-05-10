@@ -3,7 +3,7 @@ const express= require('express');
 const cors= require('cors');
 const _= require('lodash');
 
-const icalUrl= '';
+const icalUrl= require('./config.json').url;
 
 let app= express();
 let scheduleDB= new Array();
